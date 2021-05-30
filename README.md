@@ -51,7 +51,7 @@ In evaluating the residuals of aerosols, we’re looking for areas of low fire f
 
 <img width="1039" alt="Screen Shot 2021-05-30 at 1 25 59 PM" src="https://user-images.githubusercontent.com/73979215/120114110-93b8c580-c14b-11eb-8692-8f2999626dc1.png">   
 
-#### Evaluating fire trends in the Pan- Amazon using Google Earth Engine
+#### Data Extraction of MODIS Thermal anomalies for the Pan- Amazon using Google Earth Engine
 1. Load MODIS Fire dataset into Google Earth Engine 
 ```
 var ModisProjection = ModFire.first().select('FireMask').projection()
@@ -137,9 +137,84 @@ var AllSeasons = ee.ImageCollection.fromImages(
 print('AllSeasons',AllSeasons);
 ```
 
+7. The resulting images were exported from Google Earth Engine to Google Drive for further analysis in ArcPro and TerrSet software. 
+
+#### Data Extraction of MODIS Aerosols Optical Depth Product for the Pan-Amazon using Google Earth Engine 
+1. Import MODIS Aerosols Optical Depth Product and study region boundaries. Due to Google Earth Engine specifications for user processing time allotments, we created a custom border called `geometry` with fewer edges to reduce processing requirements. (Still, lots of edges! But won't cause Google Earth Engine to time out)  
+```
+
+var ModAOD = ee.ImageCollection("MODIS/006/MCD19A2_GRANULES"),
+    CNT = ee.FeatureCollection("FAO/GAUL_SIMPLIFIED_500m/2015/level0"),
+    geometry = /* color: #d63000 */ee.Geometry.Polygon(
+        [[[-66.27042285946611, 2.7943597354732597],
+          [-70.13761035946611, 3.3209508763843876],
+          [-72.07120410946611, 0.33452876610470555],
+          [-72.07120410946611, -2.8283824031623315],
+          [-74.70792285946611, -5.1079085954351005],
+          [-74.35636035946611, -8.250093043925387],
+          [-72.24698535946611, -11.36749493365821],
+          [-68.37979785946611, -13.256524052674614],
+          [-65.91886035946611, -13.085366873982482],
+          [-61.524329109466116, -16.315397655308406],
+          [-59.766516609466116, -18.662382219128908],
+          [-58.536047859466116, -23.25699489830982],
+          [-55.371985359466116, -25.021407018978532],
+          [-55.899329109466116, -26.917664478348712],
+          [-58.184485359466116, -29.397014961529926],
+          [-58.360266609466116, -31.66787841880078],
+          [-53.965735359466116, -33.44565401404504],
+          [-50.801672859466116, -34.175910059848235],
+          [-47.461829109466116, -28.936537867920578],
+          [-47.286047859466116, -27.074292245898576],
+          [-45.176672859466116, -24.86201968625882],
+          [-43.492485689390854, -23.561195697114513],
+          [-40.811821626890854, -22.99604829109873],
+          [-38.702446626890854, -20.46533611932378],
+          [-37.823540376890854, -14.474285549268728],
+          [-35.977837251890854, -11.046049441390027],
+          [-34.76292071305731, -8.419627240390355],
+          [-33.956352876890854, -6.268590941480547],
+          [-35.142876314390854, -4.124247875332372],
+          [-39.976860689390854, -1.666641451808872],
+          [-50.084282564390854, 2.8144128638868624],
+          [-51.226860689390854, 6.318325389024311],
+          [-54.171196626890854, 4.831294273409571],
+          [-58.653618501890854, 3.9988184445008628],
+          [-60.762993501890854, 6.623982290467289],
+          [-63.11512885759402, 5.562762077095351],
+          [-65.53212104509402, 5.125220124120374]]]);
+```
+2. Filter MODIS image collection by region and date – evaluation time scale from 2000 to 2020
+```
+Map.addLayer(Brazil,{},'Brazil', false)
+var ModFil = ModAOD.filterBounds(geometry)
 
 
+var ModAOD = ModFil.select('Optical_Depth_055')
+var AODBrz = ModAOD.map(function(image){return image.clip(Brazil);})
+.filterDate('2000-01-01', '2020-12-31')
 
+print(AODBrz.first())
+```
+3. Aggregate to yearly cumulative 
+```
+//Yearly cumulative 
+
+
+var year = ee.List.sequence(2000, 2020);
+
+// Group by month, and then reduce within groups by mean();
+// the result is an ImageCollection with one image for each
+// month.
+var byyear = ee.ImageCollection.fromImages(
+      year.map(function (y) {
+        return AODBrz.filter(ee.Filter.calendarRange(y, y, 'year'))
+                    .sum()
+                    .set('year', y);
+}));
+print(byyear);
+```
+4.The resulting images were exported from Google Earth Engine to Google Drive for further analysis in ArcPro and TerrSet software. 
 
 
 
