@@ -220,7 +220,7 @@ print(byyear);
 
  
 
-#### Data Processing in Google Earth Engine
+
 
 
  
