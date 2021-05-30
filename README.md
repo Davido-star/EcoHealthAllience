@@ -51,6 +51,94 @@ In evaluating the residuals of aerosols, we’re looking for areas of low fire f
 
 <img width="1039" alt="Screen Shot 2021-05-30 at 1 25 59 PM" src="https://user-images.githubusercontent.com/73979215/120114110-93b8c580-c14b-11eb-8692-8f2999626dc1.png">   
 
+#### Evaluating fire trends in the Pan- Amazon using Google Earth Engine
+1. Load MODIS Fire dataset into Google Earth Engine 
+```
+var ModisProjection = ModFire.first().select('FireMask').projection()
+print (ModisProjection)
+var ERAProjection = ERA11km.first().select('temperature_2m').projection()
+print (ERAProjection)
+```
+2. Extract country boundaries for Brazil 
+```
+//extract country boundaries
+var Brazil = CNT.filter(ee.Filter.eq('ADM0_NAME', 'Brazil'))
+```
+3. Filter the data by region and date – evaluation time scale from 2000 to 2020 
+```
+//filter by region,  date,and change scale to 10km
+var FireBrz = ModFire.map(function(image){return image.clip(Brazil)
+
+  
+})
+.filterDate('2000-01-01', '2020-12-31').select('FireMask')
+```
+4. Next, we want to extract from the `Fire Mask` only areas listed from low to high confidence of fire occurrence. 
+```
+var RecFire = function (image){
+      var reclass = image.remap([1,2,3,4,5,6,7,8,9],[0,0,0,0,0,0,1,1,1],0,'FireMask')
+      return reclass;
+  
+};
+//apply function
+
+var RecFireBrz = FireBrz.map(RecFire)
+```
+5.  We decided after aggregating fire anomalies to monthly counts by season, the analysis required a longer time scale for evaluation. Thus, we’ve proceeded by aggregating fire anomalies to monthly counts, then into a yearly sum of instances for the 20-year time interval. 
+```
+/* Extract Full Year and aggregate to monthly cummulative */
+// resample to 10km
+
+var fullyear = ee.List.sequence(1, 12);
+var years = ee.List.sequence(2000, 2020);
+
+var FireFullYear = ee.ImageCollection.fromImages(
+  years.map(function(y) {
+    return fullyear.map(function (m) {
+      return RecFireBrz
+        .filter(ee.Filter.calendarRange(y, y, 'year'))
+        .filter(ee.Filter.calendarRange(m, m, 'month'))
+        .sum()
+        .set('month', m).set('year', y)
+        
+      
+  });
+}).flatten());
+
+print('FireFullYear', FireFullYear.first().projection())
+
+
+var projection =  FireFullYear.first().projection();
+print('non-mosaiced projection:',  projection);
+```
+You’ll notice a resampling of the data to 10km. The original MODIS fire product is on a 1km x1km grid; we found this to be a too fine scale for correlation to Aerosol density and have resampled the fire product to 10km. 
+
+6. After aggregating monthly images for each month within the 20-year time series, we aggregate to full-year images for the 20-year time series. 
+```
+/* 
+_____________________________________________________
+aggregate cumulative of All Seasons
+Group by year, and then reduce within groups by sum();
+the result is an ImageCollection with one image for each year */
+
+
+var year1 = ee.List.sequence(2000, 2020);
+
+var AllSeasons = ee.ImageCollection.fromImages(
+      year1.map(function (y) {
+        return FireFullYear
+                    .filterMetadata ('year','equals',y)
+                    .sum()
+                    .set('year', y)
+                                  
+                    .rename('fire')    ;
+}).flatten());
+
+print('AllSeasons',AllSeasons);
+```
+
+
+
 
 
 
