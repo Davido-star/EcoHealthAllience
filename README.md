@@ -51,7 +51,8 @@ In evaluating the residuals of aerosols, we’re looking for areas of low fire f
 
 <img width="1039" alt="Screen Shot 2021-05-30 at 1 25 59 PM" src="https://user-images.githubusercontent.com/73979215/120114110-93b8c580-c14b-11eb-8692-8f2999626dc1.png">   
 
-#### Data Extraction of MODIS Thermal anomalies for the Pan- Amazon using Google Earth Engine
+#### Data Extraction of MODIS Thermal anomalies for the Pan- Amazon and Indonesia using Google Earth Engine
+*The following process oulines Google Earth Engine code for the Pan-Amazon*
 1. Load MODIS Fire dataset into Google Earth Engine 
 ```
 var ModisProjection = ModFire.first().select('FireMask').projection()
@@ -139,7 +140,8 @@ print('AllSeasons',AllSeasons);
 
 7. The resulting images were exported from Google Earth Engine to Google Drive for further analysis in ArcPro and TerrSet software. 
 
-#### Data Extraction of MODIS Aerosols Optical Depth Product for the Pan-Amazon using Google Earth Engine 
+#### Data Extraction of MODIS Aerosols Optical Depth Product for the Pan-Amazon and Indonesia using Google Earth Engine
+*The following process oulines Google Earth Engine code for the Pan-Amazon*
 1. Import MODIS Aerosols Optical Depth Product and study region boundaries. Due to Google Earth Engine specifications for user processing time allotments, we created a custom border called `geometry` with fewer edges to reduce processing requirements. (Still, lots of edges! But won't cause Google Earth Engine to time out)  
 ```
 
