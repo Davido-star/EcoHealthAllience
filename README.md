@@ -1,3 +1,11 @@
+# Health Impacts of Changing Landscapes in Indigenous Lands
+in the Pan-Amazon and Indonesia
+#### A Clark University Project Component in Association with EcoHealth Alliance. 
+
+## An Outline for Quantification of Fire Frequency in the Pan-Amazon | David Smith | 26 May 2021
+
+This repo contains this README explaining steps in creating a desktop analysis of fire distribution and frequency in the Pan-Amazon from 2000 to 2020, and depicts the goals and current results of this initiative. 
+
 ## Who is EcoHealth Alliance
 *"EcoHealth Alliance is an international nonprofit dedicated to a 'One Health' approach to protecting the health of people, animals and the environment from emerging infectious diseases. The organization formed with the merger of two highly respected organizations, Wildlife Trust and the Consortium for Conservation Medicine. The urgent concern for wildlife conservation and the overall health of our planet has led EcoHealth Alliance to become an environmental science and public health leader working to prevent pandemics in global hotspot regions across the globe and to promote conservation."* - [EcoHealth Alliance]( https://www.ecohealthalliance.org) 
 
