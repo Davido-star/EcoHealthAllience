@@ -22,6 +22,15 @@ This consists of a unified set of synergistic analyses of **1) the frequency and
 ## Activities
 #### Outcome 1 (Fires, Indonesia and Pan-Amazon)
 Activity 1 (Q3 2020): **Develop a “desktop analysis” of fire frequency and spatial distribution in the Pan-Amazon and Indonesia from 2000-2020.** This step will allow us to determine the spatial and temporal trends and will be used to quantify the relationship between indigenous land tenure and fire frequency and severity. 
+
+## Data 
+Dataset	Variable	Proxy	Spatial Resolution	Temporal Resolution	Temporal extent	Data Provider
+MOD14A1 V6	Thermal Anomalies and Fire	Fires	1 km	Daily	2000-2020	NASA LP DAAC at the USGS EROS Center
+
+MCD19A2 V6	MAIAC Land Aerosol Optical Depth (AOD) 	PM 2.5	1km	Daily	2000-2020	NASA LP DAAC at the USGS EROS Center 
+
+
+
  
 
 #### Data Processing in Google Earth Engine
