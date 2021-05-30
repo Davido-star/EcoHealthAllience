@@ -32,6 +32,17 @@ Activity 1 (Q3 2020): **Develop a “desktop analysis” of fire frequency and s
 1. MOD14A1 V6: Distinguishes between fire, no fire and no observations.
 2. MCD19A2 V6: Measures Aerosols. Chudnovsky et al. (2014) determined that this product is a good proxy for PM 2.5 ground concentrations
 
+## Evaluation of trends
+
+The process for evaluating trends in fire frequency for the Pan- Amazon and Indonesia use the MODIS Global Thermal Anomalies dataset focused on each region, aggregated to a yearly sum of fire occurrences, and non-parametrically evaluated for increasing and decreasing trends.
+
+<img width="828" alt="Screen Shot 2021-05-30 at 12 48 20 PM" src="https://user-images.githubusercontent.com/73979215/120113281-bd6fed80-c147-11eb-9e15-65712921687a.png">    
+
+Similarly, the evaluation of Aerosols for the Pan- Amazon and Indonesia use the MODIS Global Land Aerosols Optical Depth dataset focused on each region, aggregated to a yearly sum of Aerosol abundance, and non-parametrically evaluated for increasing and deceasing trends. 
+
+<img width="833" alt="Screen Shot 2021-05-30 at 1 03 49 PM" src="https://user-images.githubusercontent.com/73979215/120113303-da0c2580-c147-11eb-8976-1360dc6021ae.png">      
+
+ 
 
 
 
