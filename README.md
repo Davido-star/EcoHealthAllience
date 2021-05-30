@@ -28,6 +28,9 @@ Activity 1 (Q3 2020): **Develop a “desktop analysis” of fire frequency and s
 | --- | --- | --- | --- | --- | --- | --- |
 | MOD14A1 V6 | Thermal Anomalies and Fire | Fires | 1km | Daily | 2000-2020 | [NASA LP DAAC at the USGS EROS Center]( https://lpdaac.usgs.gov/products/mod14a1v006/) |
 | MCD19A2 V6 | MAIAC Land Aerosol Optical Depth (AOD) | P.M 2.5 | 1km | Daily |2000 – 2020 | [NASA LP DAAC at the USGS EROS Center ](https://lpdaac.usgs.gov/products/mcd19a2v006/) |
+#### Description 
+MOD14A1 V6: Distinguishes between fire, no fire and no observations.
+MCD19A2 V6: Measures Aerosols. Chudnovsky et al. (2014) determined that this product is a good proxy for PM 2.5 ground concentrations
 
 
 
