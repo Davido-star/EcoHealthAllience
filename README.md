@@ -1,5 +1,4 @@
-# Health Impacts of Changing Landscapes in Indigenous Lands
-in the Pan-Amazon and Indonesia
+# Health Impacts of Changing Landscapes in Indigenous Lands in the Pan-Amazon and Indonesia
 #### A Clark University Project Component in Association with EcoHealth Alliance. 
 
 ## An Outline for Quantification of Fire Frequency in the Pan-Amazon | David Smith | 26 May 2021
