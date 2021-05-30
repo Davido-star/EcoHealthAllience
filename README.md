@@ -38,11 +38,20 @@ The process for evaluating trends in fire frequency for the Pan- Amazon and Indo
 
 <img width="828" alt="Screen Shot 2021-05-30 at 12 48 20 PM" src="https://user-images.githubusercontent.com/73979215/120113281-bd6fed80-c147-11eb-9e15-65712921687a.png">    
 
-Similarly, the evaluation of Aerosols for the Pan- Amazon and Indonesia use the MODIS Global Land Aerosols Optical Depth dataset focused on each region, aggregated to a yearly sum of Aerosol abundance, and non-parametrically evaluated for increasing and deceasing trends. 
+Similarly, the evaluation of Aerosols for the Pan- Amazon and Indonesia use the MODIS Global Land Aerosols Optical Depth dataset focused on each region, aggregated to a yearly sum of Aerosol abundance, and non-parametrically evaluated for increasing and decreasing trends. 
 
 <img width="833" alt="Screen Shot 2021-05-30 at 1 03 49 PM" src="https://user-images.githubusercontent.com/73979215/120113303-da0c2580-c147-11eb-8976-1360dc6021ae.png">      
 
- 
+ ## Evaluation of Relationships
+To evaluate the relationships between fire anomalies and aerosols in each region, we’ve conducted a residual trend analysis through regression, where fires are the independent variable and aerosols the dependent.
+
+ <img width="955" alt="Screen Shot 2021-05-30 at 1 19 50 PM" src="https://user-images.githubusercontent.com/73979215/120114095-84d21300-c14b-11eb-8bc6-580fee0d8d73.png">   
+
+In evaluating the residuals of aerosols, we’re looking for areas of low fire frequency with unexplainably high aerosol concentration. For instance: an indigenous territory of the Pan – Amazon with low fire frequency and high aerosol concentration. The question is – Where are the aerosols coming from, if not from fires, and how are these communities affected by P.M 2.5, which they took no part in generating? 
+
+<img width="1039" alt="Screen Shot 2021-05-30 at 1 25 59 PM" src="https://user-images.githubusercontent.com/73979215/120114110-93b8c580-c14b-11eb-8692-8f2999626dc1.png">   
+
+
 
 
 
