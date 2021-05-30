@@ -14,8 +14,8 @@ There is reason to [believe](https://www.reuters.com/article/indonesia-haze-indi
 **Outcome 1: Body of scientific evidence supporting the role that indigenous land stewardship plays in the reduction of haze from land-clearing forest fires.**
 This consists of a unified set of synergistic analyses of **1) the frequency and distribution of forest fires in Brazil and Indonesia over the past 20 years**, 2) quantification of the health and economic burden from these fires broken down by region and by indigenous vs. non-indigenous tenure lands, and 3) estimation of the health co-benefits of avoiding haze through indigenous land stewardship. 
 
-##Activities
-####Outcome 1 (Fires, Indonesia and Pan-Amazon)
+## Activities
+#### Outcome 1 (Fires, Indonesia and Pan-Amazon)
 Activity 1 (Q3 2020): **Develop a “desktop analysis” of fire frequency and spatial distribution in the Pan-Amazon and Indonesia from 2000-2020.** This step will allow us to determine the spatial and temporal trends and will be used to quantify the relationship between indigenous land tenure and fire frequency and severity. 
  
 
