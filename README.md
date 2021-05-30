@@ -1,5 +1,5 @@
 # Health Impacts of Changing Landscapes in Indigenous Lands in the Pan-Amazon and Indonesia. A Clark University Project Component in Association with EcoHealth Alliance. 
-#### An Outline of Goals and Results for this Initiative | David Smith | 26 May 2021
+#### An Outline of Goals and Results for this Initiative | David Smith | Zoe Maymon | Finial Project GEOG 296 | 26 May 2021
 
 This repo contains this README explaining steps in creating a desktop analysis of fire distribution and frequency in the Pan-Amazon from 2000 to 2020, and depicts the goals and current results of this initiative. 
 
