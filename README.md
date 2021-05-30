@@ -27,7 +27,6 @@ Activity 1 (Q3 2020): **Develop a “desktop analysis” of fire frequency and s
 | Dataset | Variable | Proxy | Spatial Resolution | Temporal Resolution | Temporal Extent | Data Provider | 
 | --- | --- | --- | --- | --- | --- | --- |
 | MOD14A1 V6 | Thermal Anomalies and Fire | Fires | 1km | Daily | 2000-2020 | [NASA LP DAAC at the USGS EROS Center]( https://lpdaac.usgs.gov/products/mod14a1v006/) |
-| --- | --- | --- | --- | --- | --- | --- |
 | MCD19A2 V6 | MAIAC Land Aerosol Optical Depth (AOD) | P.M 2.5 | 1km | Daily |2000 – 2020 | [NASA LP DAAC at the USGS EROS Center ](https://lpdaac.usgs.gov/products/mcd19a2v006/) |
 
 
