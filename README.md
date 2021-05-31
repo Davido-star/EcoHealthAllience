@@ -244,7 +244,7 @@ Lastly, we see high R squared values for the provinces mentioned prior (especial
 #### Trend Analysis of Pan-Amazon 
 <img align="left" width="475" height="600" src="https://user-images.githubusercontent.com/73979215/120223727-0a1efb80-c210-11eb-9f70-2b224e7f96a1.png">When analyzing the Mann-Kendall trend of fire pixels throughout 2000 to 2020 in the Pan-Amazonian region, we see a broad mixture of increasing and decreasing trend values interspersed throughout the area. The primary concentration of fire occurrence is south of the Amazon River, and we would expect to see a similar profile in the evaluation of aerosol concentrations.  
 
-<img align="left" width="475" height="600" src="https://user-images.githubusercontent.com/73979215/120223628-e2c82e80-c20f-11eb-8da5-b193c96212cb.png">Instead, we see a growing Mann-Kendall trend of AOD in areas north of the Amazon River where fire occurrence is low or not nonexistent. 
+<img align="left" width="475" height="600" src="https://user-images.githubusercontent.com/73979215/120223628-e2c82e80-c20f-11eb-8da5-b193c96212cb.png">.  Instead, we see a growing Mann-Kendall trend of AOD in areas north of the Amazon River where fire occurrence is low or not nonexistent. 
 
 
 
