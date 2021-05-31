@@ -219,7 +219,7 @@ print(byyear);
 
 ## Results 
 We analyzed the times-series in TerrSet’s [Earth Trends Modeler]( https://clarklabs.org/exploring-image-time-series-with-earth-trends-modeler/) using the Linear Model Technique. The Linear Model Technique uses a multiple regression procedure to examine relationships between dependent and independent time series. For both the Pan – Amazon, and Indonesia case study regions, the 20-year time series of fire observations is the independent variable. In contrast, the 20-year time series of Aerosol Optical Depth is the dependent variable.  
-<img align="center" width="200" height="300" src="https://user-images.githubusercontent.com/73979215/120214192-2451dd00-c202-11eb-89e6-2613890bb47a.png"> jhqkcdeluhwefdhecfluhiqewfhwhuq ewfulhwhjgvyuhgybjlsdjfjkhvfahhfuhcfwqhn weqino;winfdcinjfinfcinofwionwefoefwuefwubfuh fhufwhufwhufweuhfcwuh fwucfwqfwqiofwcqionufio nfriofrhrehuerwhugrewhgei ngijngewijegrwijgerwij
+<img align="left" width="200" height="300" src="https://user-images.githubusercontent.com/73979215/120214192-2451dd00-c202-11eb-89e6-2613890bb47a.png">jhqkc deluh wefdhecflu hiqew fhwhuq ewfulhwhjgvyuhgybjlsdjfjkhvfahhfuhcfwqhn weqino;winfdcinjfi nfcinofwionwefoe fwuefwubfuh fhufwhufwhu fweuhfcwuh fwucfwqf wqiofwcqionufio nfriofrhrehuerwhugrewhgei ngijngewijegrwijgerwij
 
 
  
