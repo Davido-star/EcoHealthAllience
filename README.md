@@ -225,27 +225,38 @@ When analyzing the Mann-Kendall trend of fire pixels throughout 2000 to 2020, we
 <p align="center">
   <img width="475" height="600" src="https://user-images.githubusercontent.com/73979215/120221245-0e491a00-c20c-11eb-9726-799ccefdb0c8.png">
 </p>
+*Figure 1 Mann-Kendall trend of fire pixels in Indonesia*
 
 For AOD, we see that various areas have increasing trend values, mainly around the islands' shore. Curiously, we see a significant increase in AOD tend values in Papua and West Papua provinces.
 <p align="center">
   <img width="475" height="600" src="https://user-images.githubusercontent.com/73979215/120221484-7e57a000-c20c-11eb-8f26-ed76fee79708.png">
 </p>
+*Figure 2 Mann-Kendall trend of AOD concentration in Indonesia* 
 
 When analyzing the fire-aod linear model residuals, we see a broad mixture of positive and negative areas, thus varying under prediction and over-prediction; the under-prediction implies that factors contributing to higher AOD levels are not addressed this regression. 
 <p align="center">
   <img width="475" height="600" src="https://user-images.githubusercontent.com/73979215/120221546-9af3d800-c20c-11eb-84fe-76a300914a22.png">
 </p>
+*Figure 3 Fire-AOD Linear Model Residuals in Indonesia*
 
 Lastly, we see high R squared values for the provinces mentioned prior (especially Papua and West Papua provinces, which had a high concentration of high correlation values). Still, we also see higher correlation values in nearby Malaysia, suggesting that aerosols could wind up in the Indonesian region from fires occurring in Malaysia.
 <p align="center">
   <img width="475" height="600" src="https://user-images.githubusercontent.com/73979215/120221605-b2cb5c00-c20c-11eb-8afb-1b82f65f426b.png">
 </p>
-
+*Figure 4 Fire-AOD Linear Model Correlation (R2) values in Indonesia* 
 #### Trend Analysis of Pan-Amazon 
-<img align="left" width="475" height="600" src="https://user-images.githubusercontent.com/73979215/120223727-0a1efb80-c210-11eb-9f70-2b224e7f96a1.png">When analyzing the Mann-Kendall trend of fire pixels throughout 2000 to 2020 in the Pan-Amazonian region, we see a broad mixture of increasing and decreasing trend values interspersed throughout the area. The primary concentration of fire occurrence is south of the Amazon River, and we would expect to see a similar profile in the evaluation of aerosol concentrations.  
+When analyzing the Mann-Kendall trend of fire pixels throughout 2000 to 2020 in the Pan-Amazonian region, we see a broad mixture of increasing and decreasing trend values interspersed throughout the area. The primary concentration of fire occurrence is south of the Amazon River, and we would expect to see a similar profile in the evaluation of aerosol concentrations.  
+<p align="center">
+  <img width="475" height="600" src="https://user-images.githubusercontent.com/73979215/120225185-c5e12a80-c212-11eb-8c67-e8dcba7de85a.png">
 </p>
+*Figure 5 Mann-Kendall trend of Fire pixels in Pan-Amazon
 
-<img align="left" width="475" height="600" src="https://user-images.githubusercontent.com/73979215/120223628-e2c82e80-c20f-11eb-8da5-b193c96212cb.png">Instead, we see a growing Mann-Kendall trend of AOD in areas north of the Amazon River where fire occurrence is low or not nonexistent. 
+Instead, we see a growing Mann-Kendall trend of AOD in areas north of the Amazon River where fire occurrence is low or not nonexistent. 
+<p align="center">
+  <img width="475" height="600" src="https://user-images.githubusercontent.com/73979215/120225286-f4f79c00-c212-11eb-9e41-27dff4332fbf.png">
+</p>
+*Figure 6 Mann-Kendall trend of AOD concentration in Pan-Amazon* 
+
 
 
 
