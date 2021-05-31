@@ -221,7 +221,10 @@ print(byyear);
 We analyzed the times-series in TerrSet’s [Earth Trends Modeler]( https://clarklabs.org/exploring-image-time-series-with-earth-trends-modeler/) using the Linear Model Technique. The Linear Model Technique uses a multiple regression procedure to examine relationships between dependent and independent time series. For both the Pan – Amazon, and Indonesia case study regions, the 20-year time series of fire observations is the independent variable. In contrast, the 20-year time series of Aerosol Optical Depth is the dependent variable.
 
 #### Trend Analysis of Indonesia 
-When analyzing the Mann-Kendall trend of fire pixels throughout 2001 to 2020, we see a Mann-Kendall trend that central and western portions of the country increase in fire frequency. Riau and Jambi provinces on the west island and west and central Kalimantan provinces have many increasing pixels.![MK Fire_indo](https://user-images.githubusercontent.com/73979215/120220836-603d7000-c20b-11eb-98c0-119ee1317ecf.png)
+When analyzing the Mann-Kendall trend of fire pixels throughout 2001 to 2020, we see a Mann-Kendall trend that central and western portions of the country increase in fire frequency. Riau and Jambi provinces on the west island and west and central Kalimantan provinces have many increasing pixels. 
+<p align="center">
+  <img width="460" height="300" src="https://user-images.githubusercontent.com/73979215/120221245-0e491a00-c20c-11eb-9726-799ccefdb0c8.png">
+</p>
 
 
 
