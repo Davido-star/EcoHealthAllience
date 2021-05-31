@@ -116,8 +116,7 @@ You’ll notice a resampling of the data to 10km. The original MODIS fire produc
 
 6. After aggregating monthly images for each month within the 20-year time series, we aggregate to full-year images for the 20-year time series. 
 ```
-/* 
-_____________________________________________________
+/* _____________________________________________________
 aggregate cumulative of All Seasons
 Group by year, and then reduce within groups by sum();
 the result is an ImageCollection with one image for each year */
