@@ -246,6 +246,7 @@ When analyzing the Mann-Kendall trend of fire pixels throughout 2000 to 2020 in 
 <p align="center">
   <img width="475" height="600" src="https://user-images.githubusercontent.com/73979215/120222820-903a4280-c20e-11eb-8b0f-e9b67932c581.png">
 </p>
+<img align="left" width="475" height="600" src="https://user-images.githubusercontent.com/73979215/120223628-e2c82e80-c20f-11eb-8da5-b193c96212cb.png">Instead, we see a growing Mann-Kendall trend of AOD in areas north of the Amazon River where fire occurrence is low or not nonexistent. 
 
 
 
