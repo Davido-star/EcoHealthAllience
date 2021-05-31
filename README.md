@@ -224,7 +224,7 @@ We analyzed the times-series in TerrSet’s [Earth Trends Modeler]( https://clar
 When analyzing the Mann-Kendall trend of fire pixels throughout 2000 to 2020, we see a Mann-Kendall trend that central and western portions of the country increase in fire frequency. Riau and Jambi provinces on the west island and west and central Kalimantan provinces have many increasing pixels. 
 <p align="center">
   <img width="475" height="600" src="https://user-images.githubusercontent.com/73979215/120221245-0e491a00-c20c-11eb-9726-799ccefdb0c8.png">
-</p> *Figure 1 Mann-Kendall trend of fire pixels in Indonesia*
+</p> *Figure 1 Mann-Kendall trend of fire pixels in Indonesia 
 
 For AOD, we see that various areas have increasing trend values, mainly around the islands' shore. Curiously, we see a significant increase in AOD tend values in Papua and West Papua provinces.
 <p align="center">
