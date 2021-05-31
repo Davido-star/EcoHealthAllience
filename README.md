@@ -246,4 +246,5 @@ Lastly, we see high R squared values for the provinces mentioned prior (especial
 
 
 
+
  
