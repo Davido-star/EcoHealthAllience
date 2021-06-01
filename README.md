@@ -268,6 +268,8 @@ Lastly, the R2 correlation image shows a high correlation of AOD to fires in are
 </p>
 *Figure 8 Fire-AOD Linear Model Correlation (R2) values in the Pan-Amazon*
 
+## Conclusion 
+This README contains methods and inquiries into the correlation of aerosols to fire frequency for Indonesia and the Pan-Amazon. We have found high concentrations of aerosols in areas where fires have not and are not occurring in the broad county context of Indonesia and the Pan-Amazon. Moving forward, a similar analysis will be conducted at a larger scale, aggregating fire occurrences and AOD concentrations by the municipality in the Pan-Amazon and by providence in Indonesia. Aggregating to this level will allow EcoHealth Alliance to assess the relationship of illness to aerosol concentrations by municipalities in the Pan-Amazon and Indonesia provinces. 
 
 
 
