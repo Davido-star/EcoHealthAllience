@@ -15,25 +15,6 @@ A growing world population and increasing demand for resources to support it has
 However, indigenous communities are suffering from the haze generated in other parts of the Amazon, despite maintaining contiguous forest cover in their own lands.
 There is reason to [believe](https://www.reuters.com/article/indonesia-haze-indigenous/indonesias-new-ally-on-war-against-haze-tribespeople-idUSL5N1GY23Y) that a similar process is occurring across indigenous-managed lands in Indonesia, where indigenous communities have sustainably managed forest and peatland for generations. Further analysis is needed to describe the process in both the Amazon and Indonesia in quantitative terms (EcoHealth Alliance, 2020). 
 
-## Table of contents 
-<!-- ⛔️ MD-MAGIC-EXAMPLE:START (TOC:collapse=true&collapseText=Click to expand) -->
-<details>
-<summary>Click to expand</summary>
- -[Medium-Term Outcomes](#medium-term-outcomes-one-fires-one-on-infectious-diseases)
- -[Activities](https://github.com/Davido-star/EcoHealthAllience/blob/main/README.md#activities)
- -[Data](https://github.com/Davido-star/EcoHealthAllience/blob/main/README.md#data)
- -[Evaluation of Trends](https://github.com/Davido-star/EcoHealthAllience/blob/main/README.md#evaluation-of-trends)
- -[Evaluation of Relationships](https://github.com/Davido-star/EcoHealthAllience/blob/main/README.md#evaluation-of-relationships)
- -[Data Extraction](https://github.com/Davido-star/EcoHealthAllience/blob/main/README.md#data-extraction-of-modis-thermal-anomalies-for-the-pan--amazon-and-indonesia-using-google-earth-engine)
- [Results](https://github.com/Davido-star/EcoHealthAllience/blob/main/README.md#results)
-    *[Trend Analysis of Indonesia](https://github.com/Davido-star/EcoHealthAllience/blob/main/README.md#trend-analysis-of-indonesia)
-    *[Trend Analysis of Pan-Amazon](https://github.com/Davido-star/EcoHealthAllience/blob/main/README.md#trend-analysis-of-pan-amazon)
- -[Conclusion](https://github.com/Davido-star/EcoHealthAllience/blob/main/README.md#conclusion)
- -[Citations](https://github.com/Davido-star/EcoHealthAllience/blob/main/README.md#citations)
- 
- </details>
-  <!-- ⛔️ MD-MAGIC-EXAMPLE:END -->
-
 ## *Medium-Term Outcomes (one fires, one on infectious diseases)*
 **Outcome 1: Body of scientific evidence supporting the role that indigenous land stewardship plays in the reduction of haze from land-clearing forest fires.**
 This consists of a unified set of synergistic analyses of **1) the frequency and distribution of forest fires in Brazil and Indonesia over the past 20 years**, 2) quantification of the health and economic burden from these fires broken down by region and by indigenous vs. non-indigenous tenure lands, and 3) estimation of the health co-benefits of avoiding haze through indigenous land stewardship. 
