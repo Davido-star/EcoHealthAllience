@@ -19,8 +19,9 @@ There is reason to [believe](https://www.reuters.com/article/indonesia-haze-indi
 <!-- ⛔️ MD-MAGIC-EXAMPLE:START (TOC:collapse=true&collapseText=Click to expand) -->
 <details>
 <summary>Click to expand</summary>
- 
+ -[Medium-Term Outcomes](##*Medium-Term Outcomes (one fires, one on infectious diseases)*)
  <details>
+  <!-- ⛔️ MD-MAGIC-EXAMPLE:END -->
 
 ## *Medium-Term Outcomes (one fires, one on infectious diseases)*
 **Outcome 1: Body of scientific evidence supporting the role that indigenous land stewardship plays in the reduction of haze from land-clearing forest fires.**
