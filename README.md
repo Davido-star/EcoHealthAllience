@@ -218,7 +218,7 @@ print(byyear);
 4.The resulting images were exported from Google Earth Engine to Google Drive for further analysis in ArcPro and TerrSet software. 
 
 ## Results 
-We analyzed the times-series in TerrSet’s [Earth Trends Modeler]( https://clarklabs.org/exploring-image-time-series-with-earth-trends-modeler/) using the Linear Model Technique. The Linear Model Technique uses a multiple regression procedure to examine relationships between dependent and independent time series. For both the Pan – Amazon, and Indonesia case study regions, the 20-year time series of fire observations is the independent variable. In contrast, the 20-year time series of Aerosol Optical Depth is the dependent variable.
+We analyzed the times-series in TerrSet’s [Earth Trends Modeler]( https://clarklabs.org/exploring-image-time-series-with-earth-trends-modeler/) using the Linear Model Technique. The Linear Model Technique uses a multiple regression procedure to examine relationships between dependent and independent time series. For both the Pan – Amazon, and Indonesia case study regions, the 20-year time series of fire observations is the independent variable. In contrast, the 20-year time series of Aerosol Optical Depth is the dependent variable.  
 
 #### Trend Analysis of Indonesia 
 When analyzing the Mann-Kendall trend of fire pixels throughout 2000 to 2020, we see a Mann-Kendall trend that central and western portions of the country increase in fire frequency. Riau and Jambi provinces on the west island and west and central Kalimantan provinces have many increasing pixels. 
@@ -242,7 +242,7 @@ Lastly, we see high R squared values for the provinces mentioned prior (especial
 <p align="center">
   <img width="475" height="600" src="https://user-images.githubusercontent.com/73979215/120221605-b2cb5c00-c20c-11eb-8afb-1b82f65f426b.png">
 </p>
-*Figure 4 Fire-AOD Linear Model Correlation (R2) values in Indonesia* 
+*Figure 4 Fire-AOD Linear Model Correlation (R2) values in Indonesia*.      
 #### Trend Analysis of Pan-Amazon 
 When analyzing the Mann-Kendall trend of fire pixels throughout 2000 to 2020 in the Pan-Amazonian region, we see a broad mixture of increasing and decreasing trend values interspersed throughout the area. We see a more precise pattern, increasing trend values in the Amazon Forest near the Amazon River.The primary concentration of fire occurrence is south of the Amazon River, and we would expect to see a similar profile in the evaluation of aerosol concentrations. 
 <p align="center">
