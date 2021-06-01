@@ -19,7 +19,7 @@ There is reason to [believe](https://www.reuters.com/article/indonesia-haze-indi
 <!-- ⛔️ MD-MAGIC-EXAMPLE:START (TOC:collapse=true&collapseText=Click to expand) -->
 <details>
 <summary>Click to expand</summary>
- -[*Medium-Term Outcomes](https://github.com/Davido-star/EcoHealthAllience/blob/main/README.md#medium-term-outcomes-one-fires-one-on-infectious-diseases)
+ -[Medium-Term Outcomes](#medium-term-outcomes-one-fires-one-on-infectious-diseases)
  -[Activities](https://github.com/Davido-star/EcoHealthAllience/blob/main/README.md#activities)
  -[Data](https://github.com/Davido-star/EcoHealthAllience/blob/main/README.md#data)
  -[Evaluation of Trends](https://github.com/Davido-star/EcoHealthAllience/blob/main/README.md#evaluation-of-trends)
