@@ -231,8 +231,7 @@ For AOD, we see that various areas have increasing trend values, mainly around t
   <img width="475" height="600" src="https://user-images.githubusercontent.com/73979215/120221484-7e57a000-c20c-11eb-8f26-ed76fee79708.png">
 </p> Figure 2 Mann-Kendall trend of AOD concentration in Indonesia.     
 
-
-See an interactive swipe display between [figure 1 and figure 2](https://clarku.maps.arcgis.com/apps/StorytellingSwipe/index.html?appid=fadbf3bd39694656a6451bb542926ae4).
+####See an interactive swipe display between [figure 1 and figure 2](https://clarku.maps.arcgis.com/apps/StorytellingSwipe/index.html?appid=fadbf3bd39694656a6451bb542926ae4).
 
 When analyzing the fire-aod linear model residuals, we see a broad mixture of positive and negative areas, thus varying under prediction and over-prediction; the under-prediction implies that factors contributing to higher AOD levels are not addressed by this regression. 
 <p align="center">
