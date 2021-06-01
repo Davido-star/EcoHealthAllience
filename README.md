@@ -242,7 +242,8 @@ Lastly, we see high R squared values for the provinces mentioned prior (especial
 <p align="center">
   <img width="475" height="600" src="https://user-images.githubusercontent.com/73979215/120221605-b2cb5c00-c20c-11eb-8afb-1b82f65f426b.png">
 </p>
-*Figure 4 Fire-AOD Linear Model Correlation (R2) values in Indonesia*.      
+*Figure 4 Fire-AOD Linear Model Correlation (R2) values in Indonesia*.  
+
 #### Trend Analysis of Pan-Amazon 
 When analyzing the Mann-Kendall trend of fire pixels throughout 2000 to 2020 in the Pan-Amazonian region, we see a broad mixture of increasing and decreasing trend values interspersed throughout the area. We see a more precise pattern, increasing trend values in the Amazon Forest near the Amazon River.The primary concentration of fire occurrence is south of the Amazon River, and we would expect to see a similar profile in the evaluation of aerosol concentrations. 
 <p align="center">
