@@ -20,7 +20,7 @@ There is reason to [believe](https://www.reuters.com/article/indonesia-haze-indi
 <details>
 <summary>Click to expand</summary>
  -[Medium-Term Outcomes](##*Medium-Term Outcomes (one fires, one on infectious diseases)*)
- <details>
+ </details>
   <!-- ⛔️ MD-MAGIC-EXAMPLE:END -->
 
 ## *Medium-Term Outcomes (one fires, one on infectious diseases)*
