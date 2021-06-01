@@ -271,6 +271,15 @@ Lastly, the R2 correlation image shows a high correlation of AOD to fires in are
 ## Conclusion 
 This README contains methods and inquiries into the correlation of aerosols to fire frequency for Indonesia and the Pan-Amazon. We have found high concentrations of aerosols in areas where fires have not and are not occurring in the broad county context of Indonesia and the Pan-Amazon. Moving forward, a similar analysis will be conducted at a larger scale, aggregating fire occurrences and AOD concentrations by the municipality in the Pan-Amazon and by providence in Indonesia. Aggregating to this level will allow EcoHealth Alliance to assess the relationship of illness to aerosol concentrations by municipalities in the Pan-Amazon and Indonesia provinces. 
 
+## Citations 
+Chudnovsky, A.; Lyapustin, A.; Wang, Y.; Tang, C.; Schwartz, J.; Koutrakis, P. (2014). High-resolution aerosol data from MODIS satellite for urban air quality studies. CENTRAL EUROPEAN JOURNAL OF GEOSCIENCES, 6(1), 17-26
+
+Giglio, L., Justice, C. (2015). MOD14A1 MODIS/Terra Thermal Anomalies/Fire Daily L3 Global 1km SIN Grid V006 [Data set]. NASA EOSDIS Land Processes DAAC. Accessed 2021-05-30 from https://doi.org/10.5067/MODIS/MOD14A1.006
+
+Lyapustin, A., Wang, Y. (2018). MCD19A2 MODIS/Terra+Aqua Land Aerosol Optical Depth Daily L2G Global 1km SIN Grid V006 [Data set]. NASA EOSDIS Land Processes DAAC. Accessed 2021-05-30 from https://doi.org/10.5067/MODIS/MCD19A2.006
+
+Vadrevu, K. P., Lasko, K., Giglio, L., Schroeder, W., Biswas, S., & Justice, C. (2019). Trends in Vegetation fires in South and Southeast Asian Countries. Scientific Reports, 9(1), 7422. https://doi.org/10.1038/s41598-019-43940-x
+
 
 
 
