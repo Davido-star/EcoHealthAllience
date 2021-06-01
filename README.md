@@ -224,12 +224,12 @@ We analyzed the times-series in TerrSet’s [Earth Trends Modeler]( https://clar
 When analyzing the Mann-Kendall trend of fire pixels throughout 2000 to 2020, we see a Mann-Kendall trend that central and western portions of the country increase in fire frequency. Riau and Jambi provinces on the west island and west and central Kalimantan provinces have many increasing pixels. 
 <p align="center">
   <img width="475" height="600" src="https://user-images.githubusercontent.com/73979215/120221245-0e491a00-c20c-11eb-9726-799ccefdb0c8.png">
-</p> Figure 1 Mann-Kendall trend of fire pixels in Indonesia
+</p> Figure 1 Mann-Kendall trend of fire pixels in Indonesia.  
 
 For AOD, we see that various areas have increasing trend values, mainly around the islands' shore. Curiously, we see a significant increase in AOD tend values in Papua and West Papua provinces.
 <p align="center">
   <img width="475" height="600" src="https://user-images.githubusercontent.com/73979215/120221484-7e57a000-c20c-11eb-8f26-ed76fee79708.png">
-</p> Figure 2 Mann-Kendall trend of AOD concentration in Indonesia.  
+</p> Figure 2 Mann-Kendall trend of AOD concentration in Indonesia.     
 
 
 See an interactive swipe display between [figure 1 and figure 2](https://clarku.maps.arcgis.com/apps/StorytellingSwipe/index.html?appid=fadbf3bd39694656a6451bb542926ae4).
@@ -237,38 +237,38 @@ See an interactive swipe display between [figure 1 and figure 2](https://clarku.
 When analyzing the fire-aod linear model residuals, we see a broad mixture of positive and negative areas, thus varying under prediction and over-prediction; the under-prediction implies that factors contributing to higher AOD levels are not addressed by this regression. 
 <p align="center">
   <img width="475" height="600" src="https://user-images.githubusercontent.com/73979215/120221546-9af3d800-c20c-11eb-84fe-76a300914a22.png">
-</p> Figure 3 Fire-AOD Linear Model Residuals in Indonesia
+</p> Figure 3 Fire-AOD Linear Model Residuals in Indonesia.  
 
 
 Lastly, we see high R squared values for the provinces mentioned prior (especially Papua and West Papua provinces, which had a high concentration of high correlation values). Still, we also see higher correlation values in nearby Malaysia, suggesting that aerosols could wind up in the Indonesian region from fires occurring in Malaysia.
 <p align="center">
   <img width="475" height="600" src="https://user-images.githubusercontent.com/73979215/120221605-b2cb5c00-c20c-11eb-8afb-1b82f65f426b.png">
-</p> Figure 4 Fire-AOD Linear Model Correlation (R2) values in Indonesia
+</p> Figure 4 Fire-AOD Linear Model Correlation (R2) values in Indonesia.  
 
 
 #### Trend Analysis of Pan-Amazon 
 When analyzing the Mann-Kendall trend of fire pixels throughout 2000 to 2020 in the Pan-Amazonian region, we see a broad mixture of increasing and decreasing trend values interspersed throughout the area. We see a more precise pattern, increasing trend values in the Amazon Forest near the Amazon River.The primary concentration of fire occurrence is south of the Amazon River, and we would expect to see a similar profile in the evaluation of aerosol concentrations. 
 <p align="center">
   <img width="475" height="600" src="https://user-images.githubusercontent.com/73979215/120225185-c5e12a80-c212-11eb-8c67-e8dcba7de85a.png">
-</p> Figure 5 Mann-Kendall trend of Fire pixels in Pan-Amazon
+</p> Figure 5 Mann-Kendall trend of Fire pixels in Pan-Amazon.  
 
 
 Instead, we see a growing Mann-Kendall trend of AOD in areas north of the Amazon River where fire occurrence is low or not nonexistent. 
 <p align="center">
   <img width="475" height="600" src="https://user-images.githubusercontent.com/73979215/120225286-f4f79c00-c212-11eb-9e41-27dff4332fbf.png">
-</p> Figure 6 Mann-Kendall trend of AOD concentration in Pan-Amazon
+</p> Figure 6 Mann-Kendall trend of AOD concentration in Pan-Amazon.  
 
 
 Looking at the residual image, areas of high tau indicate higher concentrations of AOD than what is predicted by the model. There is variance in under-prediction and over-prediction throughout this image, implying that this regression does not address factors contributing to higher AOD levels, such as AOD transporting by weather from one place to the next. 
 <p align="center">
   <img width="475" height="600" src="https://user-images.githubusercontent.com/73979215/120254338-999bcd00-c257-11eb-8356-fe22c52ab094.png">
-</p> Figure 7 Fire-AOD Linear Model Residuals in Pan- Amazon
+</p> Figure 7 Fire-AOD Linear Model Residuals in Pan- Amazon.  
 
 
 Lastly, the R2 correlation image shows a high correlation of AOD to fires in areas where fires occur, but not in areas seen as having high AOD concentrations in figure 6. There’s a noteworthy boundary in the R2 image and in figure 5, where fires stop, and the correlation of AOD concentration declines, respectively. These are protected indigenous areas where land tenure practices are different from industrial ones. Further analysis will focus on the same metrics shown here, but at the municipality level rather than the entire Pan -Amazon to quantify differentiation in land practices, their effects, and potential consequences to people's health with no affiliation to the cause. 
 <p align="center">
   <img width="475" height="600" src="https://user-images.githubusercontent.com/73979215/120255299-9e618080-c259-11eb-9ff3-7d40868248c5.png">
-</p> Figure 8 Fire-AOD Linear Model Correlation (R2) values in the Pan-Amazon
+</p> Figure 8 Fire-AOD Linear Model Correlation (R2) values in the Pan-Amazon.  
 
 
 ## Conclusion 
