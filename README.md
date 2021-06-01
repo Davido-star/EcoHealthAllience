@@ -19,7 +19,18 @@ There is reason to [believe](https://www.reuters.com/article/indonesia-haze-indi
 <!-- ⛔️ MD-MAGIC-EXAMPLE:START (TOC:collapse=true&collapseText=Click to expand) -->
 <details>
 <summary>Click to expand</summary>
- -[Medium-Term Outcomes](##*Medium-Term Outcomes (one fires, one on infectious diseases)*)
+ -[*Medium-Term Outcomes](https://github.com/Davido-star/EcoHealthAllience/blob/main/README.md#medium-term-outcomes-one-fires-one-on-infectious-diseases)
+ -[Activities](https://github.com/Davido-star/EcoHealthAllience/blob/main/README.md#activities)
+ -[Data](https://github.com/Davido-star/EcoHealthAllience/blob/main/README.md#data)
+ -[Evaluation of Trends](https://github.com/Davido-star/EcoHealthAllience/blob/main/README.md#evaluation-of-trends)
+ -[Evaluation of Relationships](https://github.com/Davido-star/EcoHealthAllience/blob/main/README.md#evaluation-of-relationships)
+ -[Data Extraction](https://github.com/Davido-star/EcoHealthAllience/blob/main/README.md#data-extraction-of-modis-thermal-anomalies-for-the-pan--amazon-and-indonesia-using-google-earth-engine)
+ [Results](https://github.com/Davido-star/EcoHealthAllience/blob/main/README.md#results)
+    *[Trend Analysis of Indonesia](https://github.com/Davido-star/EcoHealthAllience/blob/main/README.md#trend-analysis-of-indonesia)
+    *[Trend Analysis of Pan-Amazon](https://github.com/Davido-star/EcoHealthAllience/blob/main/README.md#trend-analysis-of-pan-amazon)
+ -[Conclusion](https://github.com/Davido-star/EcoHealthAllience/blob/main/README.md#conclusion)
+ -[Citations](https://github.com/Davido-star/EcoHealthAllience/blob/main/README.md#citations)
+ 
  </details>
   <!-- ⛔️ MD-MAGIC-EXAMPLE:END -->
 
