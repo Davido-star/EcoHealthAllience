@@ -13,7 +13,14 @@ in the Pan-Amazon and Indonesia.
 #### Why is this important? 
 A growing world population and increasing demand for resources to support it has led to unprecedented land-use change across the planet over the last several decades. For example, the demand for meat in emerging markets in Asia and Europe has resulted in the clearing of large swaths of forest in the Amazon region to make room for livestock production. A quick review by EcoHealth Alliance of the fires from last year in the Amazon shows that most fires occurred outside of indigenous territories and protected areas. It is likely that indigenous stewardship of land protects large pockets of forest from being burned, buffering the damages from haze in surrounding areas and protecting communities in neighboring lands.  
 However, indigenous communities are suffering from the haze generated in other parts of the Amazon, despite maintaining contiguous forest cover in their own lands.
-There is reason to [believe](https://www.reuters.com/article/indonesia-haze-indigenous/indonesias-new-ally-on-war-against-haze-tribespeople-idUSL5N1GY23Y) that a similar process is occurring across indigenous-managed lands in Indonesia, where indigenous communities have sustainably managed forest and peatland for generations. Further analysis is needed to describe the process in both the Amazon and Indonesia in quantitative terms (EcoHealth Alliance, 2020).  
+There is reason to [believe](https://www.reuters.com/article/indonesia-haze-indigenous/indonesias-new-ally-on-war-against-haze-tribespeople-idUSL5N1GY23Y) that a similar process is occurring across indigenous-managed lands in Indonesia, where indigenous communities have sustainably managed forest and peatland for generations. Further analysis is needed to describe the process in both the Amazon and Indonesia in quantitative terms (EcoHealth Alliance, 2020). 
+
+## Table of contents 
+<!-- ⛔️ MD-MAGIC-EXAMPLE:START (TOC:collapse=true&collapseText=Click to expand) -->
+<details>
+<summary>Click to expand</summary>
+ 
+ <details>
 
 ## *Medium-Term Outcomes (one fires, one on infectious diseases)*
 **Outcome 1: Body of scientific evidence supporting the role that indigenous land stewardship plays in the reduction of haze from land-clearing forest fires.**
